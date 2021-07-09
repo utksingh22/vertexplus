@@ -1,0 +1,437 @@
+.productDescription{
+    width: 540px;
+    box-sizing: border-box;
+    padding-left: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.productTitle h2{
+    font-size: 20.5px;
+    font-weight: 400;
+    display: inline;
+    line-height: 27px;
+    color: #262626;
+    text-align: left;
+}
+
+.productSku {
+    font-size: 12px;
+    color: #555;
+    margin-left: 3%;
+}
+
+.reviewStars{
+    color: #FFD200;
+    font-size: 20px;
+}
+
+.reviews{
+    color: #555555!important;
+    font-family: Open Sans;
+    font-size: 13px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.priceContainer{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceSec{
+    color: #fa505a;
+}
+
+.newprice{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.oldprice{
+    color: #555;
+    font-size: 18px;
+    line-height: 19px;
+    margin-top: 4px;
+}
+
+.orSec{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    font-size: 14px;
+}
+
+.orSec .line{
+    width: 100%;
+    height: 2px;
+    margin: 0 2px;
+    background-color: black;
+}
+
+.emioption{
+    width: 58%;    
+}
+
+.emidropbox{
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.emidropbox::after{
+    content: '';
+    border: 5px solid transparent;
+    border-top-color: #000;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    pointer-events: none;
+}
+
+.selectplan{
+    margin-right: 8%;
+}
+
+.dropbtn{
+    font-size: 21px;
+}
+
+.dropbox{
+    position: absolute;
+    top: 140%;
+    right: 0;
+    width: 150%;
+    border-top: 3px solid black;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0 1px 13px 5px rgb(51 51 51 / 20%);
+    background-color: white;
+    cursor: default;
+    color: #262626;
+    display: none;
+}
+
+.dropbox::before{
+    content: '';
+    border: 5px solid transparent;
+    border-bottom-color: #000;
+    position: absolute;
+    top: -12px;
+    right: 10px;
+    pointer-events: none;
+}
+
+.emiwrapper{
+    position: relative;
+}
+
+.emiheading{
+    font-weight: 500;
+}
+
+.crossOption::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 16px;
+    height: 16px;
+    width: 1px;
+    background-color: #1d1d1b;;
+    transform: rotate(45deg);
+}
+
+.crossOption::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 16px;
+    height: 16px;
+    width: 1px;
+    background-color: #1d1d1b;;
+    transform: rotate(135deg);
+}
+
+.crossOption{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.selectpayment{
+    box-shadow: 0 1px 3px 1px rgb(51 51 51 / 5%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;    
+    margin: 2% 0%;
+}
+
+.selectpayment button{
+    padding: 1% 8%;
+    font-size: 15px;
+    border: 1px solid #fa505a;
+    background-color: white;
+    color: #fa505a;
+    margin: 2% 0%;
+    cursor: pointer;
+}
+
+.selectpayment button:hover{
+    background-color: #fa505a;
+    color: white;
+}
+
+.remove{
+    color: rgba(85,85,85,.3);
+    cursor: default;
+    pointer-events: none;
+    user-select: none;
+}
+
+.dotteddiv{
+    border: 1px dotted black;
+    background-color: #fafafa;
+    padding: 1% 8%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.otherDropdata{
+    height: 240px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.otherDropdata h3{
+    font-size: 15px;
+    color: #262626;
+    font-weight: 600;
+}
+
+.otherDropdata ul{
+    margin: 0;
+    padding-left: 1.3em;
+}
+
+.otherDropdata::-webkit-scrollbar {
+    width: 0.5em;
+}
+   
+.otherDropdata::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);    
+    border-radius: 5px;
+}
+
+.otherDropdata::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 5px;
+    /* outline: 1px solid slategrey; */
+}
+
+.addTocart{
+    height: 50px;
+    line-height: 50px;
+    background-color: #EC424C;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    text-transform: uppercase;
+    font-size: large;
+    text-align: center;
+}
+
+.aboutproduct{
+    background: #f9f9f9;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    padding: 10px !important;
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+.productdetails{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.certificate {
+    color: #01768b;
+    font-size: 20px;
+    margin-top: 10px 0;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.certificate span{
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dedede;
+    padding: 10px 0;
+    margin: 0 10px;
+}
+
+.prodSpecs .heading{
+    font-weight: 500;
+    font-size: 16.5px;
+    margin-bottom: 10px;
+}
+
+.viewmore{    
+    text-align: right;
+    margin: 10px 5px;
+}
+
+.viewmore .know{
+    border-bottom: 1px solid #262626;  
+    margin-right: 3%;
+    position: relative;
+}
+
+.viewmore .know::after{
+    content: '';
+    border: 5px solid transparent;
+    border-top-color: #000;
+    position: absolute;
+    top: 9px;
+    right: -16px;
+    pointer-events: none;
+}
+
+.shipingsecrowcol1{
+    width: 11%;
+}
+
+.shipingsecrowcol2{
+    width: 89%;
+}
+
+.shipingsecrow{
+    border-bottom: none !important;
+}
+
+.otherData{
+    background-color: white;
+    padding: 12px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sharesec{
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+.icons{
+    padding: 3px 18px;
+    border-radius: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgb(51 51 51 / 20%);
+}
+
+.share{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.hintwishlist{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hintsec, .wishsec{
+    display: flex;
+    align-items: center;
+}
+
+.wishsec .icons{
+    margin-right: 0px;
+}
+
+.face:hover{
+    color: #4267B2;
+}
+
+.pin:hover, .envel:hover, .heart:hover{
+    color: #EB2F4C;
+}
+
+.twit:hover{
+    color: #1DA1F2;
+}
+
+.sizes{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.sizes button{
+    position: absolute;    
+    width: 15px;
+    height: 15px;
+    background-color: #dedede;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    padding: 0;
+}
+
+.sizeArrow1{
+    left: 0;
+}
+
+.sizeArrow2{
+    right: 0;
+}
+
+
+.innersizes{
+    width: 84%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.sizetitle{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.sizesChart{
+    width: 100%;
+}

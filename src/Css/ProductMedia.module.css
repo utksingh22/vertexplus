@@ -1,0 +1,39 @@
+.productleftsec{
+    width: calc(100% - 540px);
+    min-width: 700px;
+    float: left;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 70px;
+    min-height: 640px;
+}
+
+.productMedia{
+    position: relative;
+}
+
+.MainImage{
+    width: 85%;
+    margin-left: 10%;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    max-width: 700px;
+}
+
+.MainImage img{
+    width: 100%;
+    max-height: 100%;
+}
+
+.ProductTitle{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.048);
+}

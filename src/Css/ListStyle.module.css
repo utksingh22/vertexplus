@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+.category{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.list{
+    margin-left: -20px;
+}
+
+.image{
+    width: 53px;
+    height: 53px;
+    padding: 3px;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.image img{
+    width: 100%;
+    max-height: 100%;
+}
+
+.name{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.active{
+    border-color: red;
+}
+
+.pop{
+    color: rgb(250, 80, 90);
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+}
