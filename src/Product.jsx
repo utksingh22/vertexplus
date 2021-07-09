@@ -3,7 +3,6 @@ import ProductMedia from './productMedia';
 import ProductDescription from './ProductDescription';
 import classes from './Css/Product.module.css'
 
-// Now i am render the productmedia.jsx and productDescription file.jsx
 class Product extends Component{
     render(){
         return(
